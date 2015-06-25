@@ -1,0 +1,4 @@
+.idea/
+node_modules
+.deploy-access
+.temp.html
