@@ -47,7 +47,7 @@
         $('#ss-form').submit(function(event) {
             if (!validate()) {
                 event.preventDefault();
-                Materialize.toast('Пожалуйста, заполните все поля формы!', 3000, 'toast');
+                Materialize.toast('Заполните все поля формы!', 3000, 'toast');
             } else {
                 $('#signup').openModal();
             }
