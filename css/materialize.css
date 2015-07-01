@@ -4638,6 +4638,14 @@ select {
   padding: 0 !important;
   margin: 0 !important; }
 
+strong {
+  font-weight: 600; }
+
+.small {
+  font-size: 13px;
+  line-height: 20px;
+  color: #555; }
+
 .toast {
   font-weight: 400;
   background-color: #b04c6d; }
@@ -4723,8 +4731,8 @@ p {
   background-color: #2b8f55;
   padding: 40px 0 0; }
   .summer-city h1 {
-    font-size: 72px;
-    line-height: 72px;
+    font-size: 64px;
+    line-height: 64px;
     color: #fff;
     font-weight: 600;
     text-transform: uppercase;
@@ -4748,13 +4756,26 @@ p {
     .summer-city h3 a {
       color: #fff;
       border-bottom: 1px dashed #fff; }
+  .summer-city .toms-bg {
+    background-image: url("../img/toms-bg.png");
+    background-position: 125% 30%;
+    background-repeat: no-repeat;
+    background-size: 40%; }
+    @media only screen and (max-width: 992px) {
+      .summer-city .toms-bg {
+        background-position: 155% top;
+        background-size: 60%; } }
+    @media only screen and (max-width: 600px) {
+      .summer-city .toms-bg {
+        background-position: 200% top;
+        background-size: 70%; } }
 
 .workshops {
   width: 100%;
-  padding: 20px 30px; }
+  padding: 20px 30px 50px; }
   .workshops h2 {
     color: #308aab;
-    margin-bottom: 40px; }
+    margin: 0; }
   .workshops .teacher {
     text-align: center;
     margin: 0;
@@ -4767,7 +4788,7 @@ p {
       .workshops .teacher {
         display: none; } }
   .workshops h3 {
-    margin: 40px 0 40px;
+    margin: 0 0 25px;
     font-size: 60px;
     line-height: 60px;
     color: #1e566b;
@@ -4776,6 +4797,8 @@ p {
       .workshops h3 {
         font-size: 38px;
         line-height: 40px; } }
+  .workshops .video-container {
+    margin-bottom: 35px; }
 
 .bbq {
   background: url("../img/bbq.jpg") top left no-repeat;
