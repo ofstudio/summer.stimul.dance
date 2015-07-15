@@ -4817,6 +4817,25 @@ p {
 
 .contests {
   padding: 10px 30px 20px; }
+  .contests .hl {
+    margin-top: 8px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #b04c6d; }
+    @media only screen and (max-width: 600px) {
+      .contests .hl {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 26px; } }
+  .contests .invit {
+    text-align: center;
+    margin: 0;
+    padding: 0 0 16px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #292e2b;
+    font-style: italic; }
   .contests h3 {
     font-size: 48px;
     line-height: 60px;

@@ -254,6 +254,29 @@ p {
   
   padding: 10px 30px 20px;
 
+  .hl {
+    margin-top: 8px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #b04c6d;
+    @media #{$small-and-down} {
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 26px;
+    }
+  }
+  .invit {
+    text-align: center;
+    margin: 0;
+    padding: 0 0 16px;
+    font-size: 12px;
+    line-height: 14px;
+    color: $black-on-yellow-text;
+    font-style: italic;
+  }
+
+
   h3 {
     font-size: 48px;
     line-height: 60px;
